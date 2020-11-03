@@ -1,0 +1,48 @@
+body {
+    background: url("bg.png") no-repeat fixed center;
+    background-size: 100% 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+}
+
+.wrapper {
+    padding: 1em 0em;
+    height: max-content;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.share {
+    position: absolute;
+    padding: 1em;
+    bottom: 0;
+    color: whitesmoke;
+}
+
+a, a:hover, a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#quote {
+    display: block;
+    font-size: 3em;
+    line-height: 1.3em;
+    padding: 1em;
+}
+
+#author {
+    display: block;
+    font-size: 2em;
+    text-align: right;
+    padding: 1em;
+}
