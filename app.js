@@ -170,6 +170,10 @@ function newQuote() {
     id.innerHTML = quote;
     author.innerHTML = by;
 
+    document.getElementById("main").animate({
+        opacity: [ 0, 1 ]
+    }, 1000);
+
     let tweet = document.getElementsByTagName("a")[0];
     let href = document.createAttribute("href");
     href.value = "https://twitter.com/intent/tweet?hashtags=quotes&text=" + quote + " " + by;
@@ -177,3 +181,4 @@ function newQuote() {
 }
 
 window.onload = newQuote;
+

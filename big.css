@@ -1,5 +1,5 @@
 body {
-    background: url("bg.png") no-repeat fixed center;
+    background: url("bg.webp") no-repeat fixed center;
     background-size: 100% 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: whitesmoke;
@@ -36,7 +36,7 @@ a, a:hover, a:visited {
     display: block;
     font-size: 3em;
     line-height: 1.3em;
-    padding: 1em;
+    padding: 1em;   
 }
 
 #author {
@@ -44,4 +44,16 @@ a, a:hover, a:visited {
     font-size: 2em;
     text-align: right;
     padding: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: auto 100%;
+    }
+    #quote {
+        font-size: 5em;
+    }
+    #author {
+        font-size: 3em;
+    }
 }
