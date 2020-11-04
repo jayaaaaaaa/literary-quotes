@@ -79,7 +79,86 @@ let quotes = [
         quote: "The soft spring breezes touch my cheek. / They bring me perfume from ten thousand flowers.",
         author: "Han Chong-Yoo"
     },
-        
+    {
+        quote: "The way to right wrongs is to turn the light of truth upon them.",
+        author: "Ida B. Wells"
+    },
+    {
+        quote: "The stars are the land-marks of the universe.",
+        author: "Sir John Frederick William Herschel"
+    },
+    {
+        quote: "How often things occur by mere chance which we dared not even hope for.",
+        author: "Terence (Publius Terentius Afer)"
+    },
+    {
+        quote: "There will be rest, and sure stars shining.",
+        author: "Sara Teasdale"
+    },
+    {
+        quote: "See others as yourself. See families as your family. See towns as your town. See countries as your country. See worlds as your world.",
+        author: "Laozi"
+    },
+    {
+        quote: "The art of life lies in a constant readjustment to our surroundings.",
+        author: "Okakura Kakuzo"
+    },
+    {
+        quote: "Be pleasant until ten o'clock in the morning and the rest of the day will take care of itself.",
+        author: "Elbert Hubbard"
+    },
+    {
+        quote: "People don't notice whether it's winter or summer when they're happy.",
+        author: "Anton Chekov"
+    },
+    {
+        quote: "I always pet a dog with my left hand, because if he bit me, I'd still have my right hand to paint with.",
+        author: "Juan Gris"
+    },
+    {
+        quote: "Cold is agreeable, that we may get warm.",
+        author: "Blaise Pascal"
+    },   
+    {
+        quote: "Politeness is the flower of humanity.",
+        author: "Joseph Joubert"
+    },  
+    {
+        quote: "Only the moment counts. It determines life.",
+        author: "Franz Kafka"
+    },  
+    {
+        quote: "No work which is destined to become a classic can look like the classics which have preceded it.",
+        author: "Juan Gris"
+    },  
+    {
+        quote: "All the windows of my heart I open to the day.",
+        author: "John Greenleaf Whittier"
+    },  
+    {
+        quote: "Existence would be intolerable if we were never to dream.",
+        author: "Anatole France"
+    },  
+    {
+        quote: "Rose, O pure contradiction…",
+        author: "Rainer Maria Rilke"
+    }, 
+    {
+        quote: "The art of life is a constant readjustment to our surroundings.",
+        author: "Masaoka Shiki"
+    },   
+    {
+        quote: "Felicity is in possession, happiness in anticipation.",
+        author: "Jean Racine"
+    },
+    {
+        quote: "Walking alone on the left bank of the river / I watched the heron seek her reedy nest.",
+        author: "O-reuk"
+    },
+    {
+        quote: "No benefit is more constant than simplicity; no happiness more constant than peace.",
+        author: "Han Fei"
+    }    
 ]
 
 function newQuote() {
