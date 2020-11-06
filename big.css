@@ -46,14 +46,20 @@ a, a:hover, a:visited {
     padding: 1em;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     body {
         background-size: auto 100%;
     }
+    .wrapper {
+        width: 100%;
+    }
+    .share {
+        display: none;
+    }
     #quote {
-        font-size: 5em;
+        font-size: 2.5em;
     }
     #author {
-        font-size: 3em;
+        font-size: 1em;
     }
 }

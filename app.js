@@ -158,7 +158,11 @@ let quotes = [
     {
         quote: "No benefit is more constant than simplicity; no happiness more constant than peace.",
         author: "Han Fei"
-    }    
+    },
+    {
+        quote: "The duty of literature is to note what counts, and to light up what is suited to the light.",
+        author: "Anatole France"
+    }
 ]
 
 function newQuote() {
